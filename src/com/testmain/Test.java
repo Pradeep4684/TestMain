@@ -11,10 +11,7 @@ public class Test {
 		list.add(20);
 		list.add(25);
 		
-		System.out.println(list);
-		
-		for(Integer i :list) {
-			System.out.println(i);
+	   list.stream().forEach(x->System.out.println(x));
 		}
 	}
-}
+
